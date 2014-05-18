@@ -44,10 +44,5 @@ public class ConversorTest {
 	public void testConversorCelciusToFahr() {
 		assertEquals(this.tempFahr, Conversor.celsiosToFahr(this.tempCelcius), 1);
 	}
-
-	@Test
-	public void testInverterString() {
-		assertEquals("asdf", Conversor.inverterLetras("fdsa"));
-	}
 	
 }
