@@ -37,12 +37,12 @@ public class ConversorTest {
 	
 	@Test
 	public void testConversorFahrToCelcius() {
-		assertEquals(this.tempCelcius, Conversor.fahrToCelsios(this.tempFahr), 1);
+		assertEquals(this.tempCelcius, Conversor.fahrToCelsius(this.tempFahr), 1);
 	}
 
 	@Test
 	public void testConversorCelciusToFahr() {
-		assertEquals(this.tempFahr, Conversor.celsiosToFahr(this.tempCelcius), 1);
+		assertEquals(this.tempFahr, Conversor.celsiusToFahr(this.tempCelcius), 1);
 	}
 	
 }

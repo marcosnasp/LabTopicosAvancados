@@ -4,12 +4,12 @@ package br.edu.fa7.topavancados;
 public class Conversor {
 
 	
-	public static double fahrToCelsios(double fahrTemp) {
+	public static double fahrToCelsius(double fahrTemp) {
 		return 5.0 * (fahrTemp - 32) / 9.0;
 	}
 	
-	public static double celsiosToFahr(double celciousTemp) {
-		return (9.0 * celciousTemp / 5.0) + 32; 
+	public static double celsiusToFahr(double celciusTemp) {
+		return (9.0 * celciusTemp / 5.0) + 32; 
 	}
 	
 	public static double somar(double a, double b) {
